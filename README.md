@@ -11,7 +11,7 @@ Redux is a centralized state manager that mediates the transfer of actions and t
 - The (store) object provides a method (dispatch). Using (dispatch) the user initiates his (action) in the (store);
 - Store takes the main property (state) from its memory, adds (action) from the dispatcher and passes them as arguments to the internal (reducer)
 - Reducer is a method (store) that transforms the previous application state into a new one, based on the type of action;
-- (Reducer), changing the state (state), launches a connected method (subscribe), which listens and which distributes changes (state) to (view) the user;
+- (Reducer), changing the state (state), launches a connected method (subscribe), which listens and which distributes changes (state) to (view) the user.
 
 ![](jpg/Flux2c.png)
 
